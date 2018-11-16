@@ -1,0 +1,30 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+input, button, textarea, fieldset, legend,
+ol, ul, li, dl, dt, dd,
+th, td,
+pre{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #ebebeb;
+}
+img{
+    border: none;
+    display: block;
+}
+ol, ul, li{
+    list-style: none;
+}
+.clearfloat{
+    zoom: 1;
+}
+.clearfloat:after{
+    content: "";
+    diaplay: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
